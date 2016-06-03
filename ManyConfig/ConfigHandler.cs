@@ -10,11 +10,11 @@ namespace ManyConfig
     {
         private static readonly Dictionary<string, object> Dictionary = new Dictionary<string, object>();
         
-        public static ManyConsoleAttribute GetManyConsoleAttribute(PropertyInfo propertyInfo)
+        public static ManyConfigAttribute GetManyConsoleAttribute(PropertyInfo propertyInfo)
         {
-            var customAttributes = propertyInfo.GetCustomAttributes<ManyConsoleAttribute>().ToArray();
+            var customAttributes = propertyInfo.GetCustomAttributes<ManyConfigAttribute>().ToArray();
 
-            var customAttribute = new ManyConsoleAttribute();
+            var customAttribute = new ManyConfigAttribute();
             if (customAttributes.Length > 0)
             {
                 customAttribute = customAttributes[0];

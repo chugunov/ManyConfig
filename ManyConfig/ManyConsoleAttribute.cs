@@ -3,7 +3,7 @@
 namespace ManyConfig
 {
     [AttributeUsage(AttributeTargets.Property)]
-    public class ManyConsoleAttribute : Attribute
+    public class ManyConfigAttribute : Attribute
     {
         /// <summary>
         /// Ключ 

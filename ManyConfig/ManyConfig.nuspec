@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<package >
+  <metadata>
+    <id>ManyConfig</id>
+    <version>1.0.0.0</version>
+    <title>ManyConfig</title>
+    <authors>chugunov</authors>
+    <owners>chugunov</owners>
+    <projectUrl>https://github.com/chugunov/ManyConfig</projectUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Helper package for easy configuration</description>
+    <copyright>Copyright 2016</copyright>
+    <tags>manyconsole config</tags>
+  </metadata>
+</package>

@@ -3,11 +3,11 @@
 [![NuGet version](https://badge.fury.io/nu/manyconfig.svg)](https://badge.fury.io/nu/manyconfig)
 [![Build status](https://ci.appveyor.com/api/projects/status/yy63ivdnny35ra01?svg=true)](https://ci.appveyor.com/project/chugunov/manyconfig)
 
-Helper package for easy configuration
+A helper package for easy configuration
 
 ## Usage
 
-Add 'ManyConfig' attribute to your configuration properties and specify DefaultValue for them.
+Add `ManyConfig` attribute to your configuration properties and specify DefaultValue for them.
 
 ```csharp
 public class ElasticConfig
@@ -22,7 +22,7 @@ public class ElasticConfig
 }
 ```
 
-In 'app.config' you can override your DefaultValue property by 'Key' field:
+In `app.config` you can override your DefaultValue property by `Key` field:
 
 ```xml
 <appSettings>

@@ -35,3 +35,6 @@ Then you can use configuration:
 ```csharp
 ElasticConfig elasticConfiguration = ConfigHandler.Get<ElasticConfig>();
 ```
+## TODO
+
+* Covering by test
